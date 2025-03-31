@@ -1,11 +1,11 @@
 {
     "parent-chain": {
         "connection": {
-            "url": "WEBSOCKET_ARBITRUM_SEPOLIA_RPC_URL"
+            "url": "https://arb-sepolia.g.alchemy.com/v2/0tNIEpvDCq-MUDB7-waKK_ySzMZ20riJ"
         }
     },
     "chain": {
-        "id": 1000000,
+        "id": 90505,
         "info-files": [
             "/config/l2_chain_info.json"
         ]
@@ -13,7 +13,7 @@
     "node": {
         "staker": {
             "parent-chain-wallet": {
-                "private-key": "VALIDATOR_PRIVATE_KEY"
+                "private-key": ""
             },
             "disable-challenge": false,
             "enable": true,
@@ -52,7 +52,7 @@
             "wait-for-max-delay": true,
             "resubmit-espresso-tx-deadline": "2m",
             "parent-chain-wallet": {
-                "private-key": "BATCH_POSTER_PRIVATE_KEY"
+                "private-key": "1d8781a8de3cbc0cf264e99ca4a8fec6177ea26eb6556747d10fde1afde7f042"
             },
             "max-delay": "1m"
         },
